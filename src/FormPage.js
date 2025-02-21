@@ -26,7 +26,7 @@ export function FormPage() {
     setIsSubmitting(true); // Set submitting state
 
     try {
-      const response = await fetch('http://localhost:5000/api/referrals ', {
+      const response = await fetch('https://accredian-backend-task-d0l4.onrender.com/api/referrals ', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
